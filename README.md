@@ -10,7 +10,7 @@ other exercises. Your tests must check the correctness of the result of running
 the function and run automatically when you commit through a GitHub action.
 
 ## Runtime Analysis
-In attempting to test I introduced a constant amount of time, however, my test cases do not work for whatever reason
-
 What is the span of the parallel program, in terms of worst-case $\Theta$? Hint:
 It may help to consider the DAG of the parallel program.
+
+The $\Theta$ would be $\Theta(nLogn)$ as the initial mergesorts runtime is also nLogn, this is attributed to the code, as it performs the same actions as mergesort, only nominally faster due to utilizing multiple cores.
